@@ -20,7 +20,6 @@ class MyLocator(matplotlib.ticker.AutoMinorLocator):
 matplotlib.ticker.AutoMinorLocator = MyLocator
 
 plt.rcParams['font.size'] = 14 #similar font size for all
-plt.rcParams['font.family'] = 'Helvetica' #similar font for all
 plt.rcParams['axes.linewidth'] = 1.0 #set the value of frame width globally
 
 def make_patch_spines_invisible(ax): #custom function to turn axes invisible
